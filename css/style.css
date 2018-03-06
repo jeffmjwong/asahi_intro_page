@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,700');
+
+body {
+  background: url("asahi1.jpg") no-repeat bottom center fixed;
+  background-color: black;
+}
+
+.main-heading {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+#quote-section {
+  margin-top: 100px;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+  height: 500px;
+  display: flex;
+}
+
+#about {
+  color: white;
+  font-size: 2.5em;
+  width: 35%;
+  padding-top: 150px;
+  text-align: center;
+}
+
+#about p {
+  margin: 0.1em;
+  font-size: 0.75em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#japanese-writing{
+ color: rgb(154, 0, 0);
+ font-weight: 700;
+}
+
+.light {
+  font-weight: 200;
+}
+
+#quote-text {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2em;
+  width: 35%;
+  padding-top: 50px;
+  font-weight: 200;
+}
+
+#quote-refreshing {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3em;
+  font-family: 'Satisfy', cursive;
+}
+
+.refreshing {
+  font-family: 'Satisfy', cursive;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#asahiLogo {
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  width: 180px;
+}
+
+#tokyoLogo {
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+  width: 80px;
+}
